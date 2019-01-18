@@ -10,11 +10,15 @@
 
 <div class="row">
     <div class="col-md-4">
-        <h2>上传文件，并查看读数</h2>
+        <h2>check the result</h2>
         <p>
-            简单的上传文件，并在该页面查看结果
+            <ul>
+                {% for index in indexs %}
+                <li> {{ index }} </li>
+                {% endfor %}
+            </ul>
         </p>
-        <p><a href="{{ url_for('upload') }}">上传页面</a></p>
+        <p><a href="{{ url_for('upload') }}">upload</a></p>
     </div>
     <!--<div class="col-md-4">
         <h2>Get more libraries</h2>
