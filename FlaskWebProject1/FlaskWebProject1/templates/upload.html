@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Flask</h1>
+    <p class="lead">上传文件的接口</p>
+    <p><a href="http://flask.pocoo.org/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>上传文件</h2>
+        <form action="" enctype='multipart/form-data' method='POST'>
+            <input type="file" name="file">
+            <input type="submit" value="上传">
+        </form>
+        <p><a href="{{ url_for('home') }}">Home</a></p>
+    </div>
+</div>
+
+{% endblock %}
