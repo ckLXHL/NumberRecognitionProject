@@ -55,9 +55,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlaskWebProject1\static\markdown\tu1.jpg" />
+    <Content Include="FlaskWebProject1\static\markdown\军都山滑雪.gif" />
     <Content Include="FlaskWebProject1\static\markdown\团建.md">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="FlaskWebProject1\static\markdown\温都水城滑雪.jpg" />
+    <Content Include="FlaskWebProject1\static\markdown\静之湖滑雪.jpg" />
     <Content Include="FlaskWebProject1\templates\upload.html" />
     <Content Include="requirements.txt" />
     <Content Include="FlaskWebProject1\static\content\bootstrap.css" />
