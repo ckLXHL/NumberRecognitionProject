@@ -29,6 +29,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FlaskWebProject1\tests\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskWebProject1\tests\test_upload.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="FlaskWebProject1\__init__.py" />
     <Compile Include="FlaskWebProject1\views.py" />
@@ -38,6 +44,7 @@
     <Folder Include="FlaskWebProject1\logic\" />
     <Folder Include="FlaskWebProject1\logic\utils\" />
     <Folder Include="FlaskWebProject1\model\" />
+    <Folder Include="FlaskWebProject1\static\markdown\" />
     <Folder Include="FlaskWebProject1\static\uploads\" />
     <Folder Include="FlaskWebProject1\tests\" />
     <Folder Include="FlaskWebProject1\static\" />
@@ -47,6 +54,10 @@
     <Folder Include="FlaskWebProject1\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FlaskWebProject1\static\markdown\tu1.jpg" />
+    <Content Include="FlaskWebProject1\static\markdown\团建.md">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="FlaskWebProject1\templates\upload.html" />
     <Content Include="requirements.txt" />
     <Content Include="FlaskWebProject1\static\content\bootstrap.css" />
